@@ -1,17 +1,24 @@
 /*
-    RESET
-*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: Arial, Helvetica, sans-serif ;
-}
-
-/*
     GENERAL
 */
 
+:root {
+    --header-height: 60px;
+    --aside-width: 150px;
+}
+
+/*
+    HEADER
+*/
+
+#main-header {
+    height: var(--header-height);
+}
+
+/*
+    MAIN
+*/
+
+main {
+    height: calc(100vh - var(--header-height));
+}
