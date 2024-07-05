@@ -22,3 +22,11 @@
 main {
     height: calc(100vh - var(--header-height));
 }
+
+main > aside {
+    width: var(--aside-width);
+}
+
+main > aside {
+    width: calc(100% - var(--aside-width));
+}

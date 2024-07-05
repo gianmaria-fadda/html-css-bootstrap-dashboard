@@ -15,26 +15,86 @@
     <body>
         
         <!--Header-->
-        <header id="main-header">
-            <div class="container">
-                HEADER
+        <header id="main-header" class="bg-warning d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-auto">
+                        sinistra
+                    </div>
+                    <div class="col">
+                        centro
+                    </div>
+                    <div class="col-auto">
+                        destra
+                    </div>
+                </div>
             </div>
         </header>
         <!--/Header-->
 
-        <!--Aside-->
-        <aside>
-            <div class="container">
-                ASIDE
-            </div>
-        </aside>
-    <!--/Aside-->
-        
         <!--Main-->
-            <main>
-                <div class="container">
-                    MAIN
-                </div>
+            <main class="bg-success d-flex">
+                <div class="container-fluid p-0 h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-auto bg-dark">
+                            <aside class="text-white h-100 p-3 d-flex flex-column justify-content-between">
+                                <ul>
+                                    <li><a href="#">
+                                        LINK
+                                    </a>
+                                    </li>
+                                    <li><a href="#">
+                                        LINK
+                                    </a>
+                                    </li>
+                                    <li><a href="#">
+                                        LINK
+                                    </a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li><a href="#">
+                                        LINK
+                                    </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="col bg-secondary h-100">
+                            <section class="h-100 overflow-y-auto">
+                                <header>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 col-lg-2 order-sm-last">
+                                                DESTRA
+                                            </div>
+                                            <div class="col-12 col-sm-4 col-lg-6">
+                                                SINISTRA
+                                            </div>
+                                            <div class="col-12 col-sm-4 col-lg-4">
+                                                CENTRO
+                                            </div>
+                                        </div>
+                                    </div>
+                                </header>
+
+                                <section>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-8">
+                                                SINISTRA
+                                            </div>
+                                            <div class="col-12 col-lg-4">
+                                                DESTRA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </div>      
             </main>
         <!--/Main-->
 
