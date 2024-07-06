@@ -2,6 +2,10 @@
     GENERAL
 */
 
+img {
+    max-width: 100%;
+}
+
 :root {
     --header-height: 60px;
     --aside-width: 150px;
@@ -37,4 +41,10 @@ main > aside {
 
 .bg-aside {
     background-image: url(../img/sidebar-bg.png);
+}
+
+.my-mobile-logo {
+    width: 30px;
+    scale: 1.5;
+    object-fit: contain;
 }
