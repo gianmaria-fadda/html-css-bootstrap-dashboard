@@ -30,3 +30,7 @@ main > aside {
 main > aside {
     width: calc(100% - var(--aside-width));
 }
+
+.my-hover-white:hover {
+    background-color: rgb(175, 175, 175);
+}
