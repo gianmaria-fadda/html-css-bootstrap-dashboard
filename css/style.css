@@ -34,3 +34,7 @@ main > aside {
 .my-hover-white:hover {
     background-color: rgb(175, 175, 175);
 }
+
+.bg-aside {
+    background-image: url(../img/sidebar-bg.png);
+}

@@ -15,17 +15,100 @@
     <body>
         
         <!--Header-->
-        <header id="main-header" class="bg-warning d-flex align-items-center">
+        <header id="main-header" class="bg-light d-flex align-items-center">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-auto">
-                        sinistra
+                    <div class="col-auto pt-2">
+                        <img src="./img/logo.svg" alt="logo">
                     </div>
-                    <div class="col">
-                        centro
+                    <div class="col pe-0">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 bg-body-secondary" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                        </form>
                     </div>
-                    <div class="col-auto">
-                        destra
+                    <div class="col-auto pt-2">
+                        <a class="text-decoration-none" href="#"><i class="fa-solid fa-list-ul px-2 text-secondary d-none d-sm-none d-lg-inline"></i></a>
+
+                        <a class="text-decoration-none" href="#"><i class="fa-solid fa-circle-question text-secondary d-none d-sm-none d-lg-inline"></i></a>
+
+                        <a class="text-decoration-none" href="#"><i class="fa-solid fa-ellipsis-vertical px-2 text-secondary d-none d-sm-none d-lg-inline"></i></a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <a href="#"><i class="fa-solid fa-bell px-2 text-warning"></i></a>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="name" aria-label="First name" required>
+                                    </div>
+                                    <div class="col">
+                                        <label for="last-name" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="last-name" aria-label="Last name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail5" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail5" required>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword2" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword2" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputCity" required>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select id="inputState" class="form-select">
+                                        <option selected>Choose...</option>
+                                        <option>Italia</option>
+                                        <option>Francia</option>
+                                        <option>Spagna</option>
+                                        <option>Albania</option>
+                                        <option>Turchia</option>
+                                        <option>Belgio</option>
+                                        <option>...</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputZip" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Photo" class="form-label">Foto</label>
+                                        <input type="file" class="form-control" id="Photo" aria-label="file example" required>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                            Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary border-0">Salva</button>
+
+                                        <button type="submit" class="bg-warning btn btn-primary border-0 text-black">Svuota</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,11 +116,11 @@
         <!--/Header-->
 
         <!--Main-->
-            <main class="bg-success d-flex">
+            <main class="d-flex">
                 <div class="container-fluid p-0 h-100">
                     <div class="row g-0 h-100">
                         <div class="col-auto bg-dark">
-                            <aside class="text-white h-100 p-3 d-flex flex-column justify-content-between">
+                            <aside class="text-white h-100 p-3 d-flex flex-column justify-content-between bg-aside">
                                 <ul class="list-unstyled">
                                     <li class="py-2 my-hover-white">
                                         <a class="text-decoration-none text-light p-2" href="#">
