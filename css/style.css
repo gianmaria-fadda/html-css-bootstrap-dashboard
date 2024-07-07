@@ -64,3 +64,18 @@ main > aside {
     border-radius: 50px;
     font-size: 1.1cap;
 }
+
+.my-th-img {
+    width: 30px;
+}
+
+.my-td-img {
+    font-size: small;
+    width: 52px;
+    height: 35px;
+}
+
+.my-border-td {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
