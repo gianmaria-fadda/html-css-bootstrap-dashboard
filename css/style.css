@@ -48,3 +48,19 @@ main > aside {
     scale: 1.5;
     object-fit: contain;
 }
+
+.my-plus {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.my-border-button {
+    height: 20px;
+    padding: 0 10px;
+    background-color: #165BBA;
+    border-radius: 50px;
+    font-size: 1.1cap;
+}
